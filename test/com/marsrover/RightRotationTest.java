@@ -19,4 +19,11 @@ public class RightRotationTest {
         char rotate = rightRotation.rotate('E');
         assertEquals('S', rotate);
     }
+
+    @Test
+    public void ifTheInitialPositionIsSouthThenTurnTowardsWest(){
+        RightRotation rightRotation = new RightRotation();
+        char rotate = rightRotation.rotate('S');
+        assertEquals('W', rotate);
+    }
 }
