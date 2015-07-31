@@ -32,4 +32,11 @@ public class Plateau {
         else
             return false;
     }
+
+    public boolean moveTowardsWest(int currentPositionX) {
+        if (currentPositionX > plateauXMin)
+            return true;
+        else
+            return false;
+    }
 }
