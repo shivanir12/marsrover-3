@@ -12,8 +12,15 @@ public class Plateau {
         this.plateauYMax = plateauYMax;
     }
 
-    public boolean moveTowardsNorth(int currentPositionX, int currentPositionY) {
+    public boolean moveTowardsNorth(int currentPositionY) {
         if (currentPositionY < plateauYMax)
+            return true;
+        else
+            return false;
+    }
+
+    public boolean moveTowardsEast(int currentPositionX) {
+        if (currentPositionX < plateauXMax)
             return true;
         else
             return false;
