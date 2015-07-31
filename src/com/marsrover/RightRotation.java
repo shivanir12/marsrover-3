@@ -9,7 +9,8 @@ public class RightRotation {
             return 'S';
         else if(position == 'S')
             return 'W';
-
+        else if(position == 'W')
+            return 'N';
         return position;
     }
 }
