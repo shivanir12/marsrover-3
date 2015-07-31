@@ -33,8 +33,4 @@ public class PlateauTest {
         boolean result = plateau.moveTowardsWest(-3);
         assertEquals(false,result);
     }
-
-
-
-
 }

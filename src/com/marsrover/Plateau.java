@@ -1,11 +1,11 @@
 package com.marsrover;
 
+
 public class Plateau {
     private final int plateauXMin = 0;
     private final int plateauYMin = 0;
     private final int plateauXMax;
     private final int plateauYMax;
-
     public Plateau(int plateauXMax, int plateauYMax) {
 
         this.plateauXMax = plateauXMax;
