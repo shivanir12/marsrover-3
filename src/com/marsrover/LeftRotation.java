@@ -6,6 +6,8 @@ public class LeftRotation {
             return 'W';
         else if(position == 'W')
             return 'S';
+        else if(position == 'S')
+            return 'E';
         return position;
     }
 }
