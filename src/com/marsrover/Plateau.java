@@ -25,4 +25,11 @@ public class Plateau {
         else
             return false;
     }
+
+    public boolean moveTowardsSouth(int currentPositionY) {
+        if (currentPositionY > plateauYMin)
+            return true;
+        else
+            return false;
+    }
 }

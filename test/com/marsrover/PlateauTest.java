@@ -20,4 +20,14 @@ public class PlateauTest {
         assertEquals(true,result);
     }
 
+    @Test
+    public void checkTheBoundaryConditionsWhenTheRoverMovesTowardsSouth(){
+        Plateau plateau = new Plateau(5,5);
+        boolean result = plateau.moveTowardsSouth(1);
+        assertEquals(true,result);
+    }
+
+
+
+
 }
